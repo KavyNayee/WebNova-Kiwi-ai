@@ -1,818 +1,647 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WebNova Agency | We Build - We Design - We Grow</title>
-<meta name="description" content="WebNova Agency crafts premium websites, web apps and digital experiences that help businesses grow faster online.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebNova Agency | We Build - We Design - We Grow</title>
+    <meta name="description" content="WebNova Agency crafts premium websites, web apps and digital experiences that help businesses grow faster online.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="customCursor"></div>
+    <div class="cursor-trail" id="cursorTrail"></div>
 
-<!-- Custom Cursor -->
-<div class="custom-cursor" id="customCursor"></div>
-<div class="cursor-trail" id="cursorTrail"></div>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
 
-<!-- Scroll Progress Bar -->
-<div class="scroll-progress" id="scrollProgress"></div>
-
-<!-- Header / Navigation -->
-<header class="header" id="header">
-  <div class="container">
-    <a href="#" class="logo">
-      <span class="logo-text">WEBNOVA</span>
-      <span class="logo-sub">AGENCY</span>
-    </a>
-    <nav class="nav" id="nav">
-      <a href="#home" class="nav-link active">Home</a>
-      <a href="#services" class="nav-link">Services</a>
-      <a href="#portfolio" class="nav-link">Portfolio</a>
-      <a href="#pricing" class="nav-link">Pricing</a>
-      <a href="#about" class="nav-link">About Us</a>
-      <a href="#contact" class="nav-link">Contact</a>
-    </nav>
-    <a href="#contact" class="btn btn-primary btn-header">
-      Let's Talk
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-    </a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
-  <!-- Mobile Menu -->
-  <div class="mobile-menu" id="mobileMenu">
-    <div class="mobile-menu-links">
-      <a href="#home" class="mobile-nav-link active">Home</a>
-      <a href="#services" class="mobile-nav-link">Services</a>
-      <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
-      <a href="#pricing" class="mobile-nav-link">Pricing</a>
-      <a href="#about" class="mobile-nav-link">About Us</a>
-      <a href="#contact" class="mobile-nav-link">Contact</a>
-    </div>
-    <a href="#contact" class="btn btn-primary btn-mobile">
-      Let's Talk
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-    </a>
-  </div>
-</header>
-
-<!-- Hero Section -->
-<section class="hero" id="home">
-  <div class="hero-parallax-bg" id="parallaxBg">
-    <div class="bg-grid"></div>
-    <div class="parallax-orb orb-a"></div>
-    <div class="parallax-orb orb-b"></div>
-    <div class="parallax-orb orb-c"></div>
-  </div>
-
-  <div class="container">
-    <div class="hero-grid">
-
-      <!-- Left: Hero Text -->
-      <div class="hero-left">
-        <div class="badge reveal">
-          <span class="badge-dot"></span>
-          DIGITAL SOLUTIONS THAT SCALE
-        </div>
-        <h1 class="hero-title reveal">
-          BUILD<br>
-          BEYOND<br>
-          <span class="gradient-text">IMAGINATION</span>
-        </h1>
-        <p class="hero-description reveal">
-          We craft premium websites, web apps and digital experiences that help businesses grow faster online.
-        </p>
-        <div class="hero-buttons reveal">
-          <a href="#portfolio" class="btn btn-primary">
-            Explore Work
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-          <a href="#services" class="btn btn-secondary">
-            Our Services
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-        </div>
-        <div class="hero-stats reveal">
-          <div class="hero-stat">
-            <span class="hero-stat-num">50+</span>
-            <span class="hero-stat-label">Projects</span>
-          </div>
-          <div class="hero-stat-divider"></div>
-          <div class="hero-stat">
-            <span class="hero-stat-num">99%</span>
-            <span class="hero-stat-label">Satisfaction</span>
-          </div>
-          <div class="hero-stat-divider"></div>
-          <div class="hero-stat">
-            <span class="hero-stat-num">24/7</span>
-            <span class="hero-stat-label">Support</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Center: Portfolio Showcase Slider -->
-      <div class="hero-center reveal">
-        <div class="showcase-wrapper">
-          <div class="showcase-label">OUR WORK</div>
-          <div class="showcase-slider" id="showcaseSlider">
-            <!-- Slide 1: Website Design -->
-            <div class="showcase-slide active">
-              <div class="showcase-card">
-                <div class="showcase-img-wrap">
-                  <div class="showcase-img-placeholder design">
-                    <div class="mockup-browser">
-                      <div class="mockup-bar">
-                        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-                        <span class="mockup-url">webnova.agency/demo</span>
-                      </div>
-                      <div class="mockup-content design-content">
-                        <div class="mc-header"></div>
-                        <div class="mc-hero"></div>
-                        <div class="mc-cards">
-                          <div class="mc-card"></div>
-                          <div class="mc-card"></div>
-                          <div class="mc-card"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="showcase-neon-ring"></div>
-                  </div>
-                </div>
-                <div class="showcase-info">
-                  <span class="showcase-badge">Website Design</span>
-                  <h3 class="showcase-title">LuxeInteriors Studio</h3>
-                  <p class="showcase-desc">Modern interior design studio with immersive 3D showroom and booking system.</p>
-                  <a href="#contact" class="showcase-btn">
-                    Start Your Project
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 2: E-commerce -->
-            <div class="showcase-slide">
-              <div class="showcase-card">
-                <div class="showcase-img-wrap">
-                  <div class="showcase-img-placeholder ecommerce">
-                    <div class="mockup-browser">
-                      <div class="mockup-bar">
-                        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-                        <span class="mockup-url">shopnova.store</span>
-                      </div>
-                      <div class="mockup-content ecommerce-content">
-                        <div class="ec-hero"></div>
-                        <div class="ec-products">
-                          <div class="ec-product"></div>
-                          <div class="ec-product"></div>
-                          <div class="ec-product"></div>
-                          <div class="ec-product"></div>
-                        </div>
-                        <div class="ec-cart-badge">🛒</div>
-                      </div>
-                    </div>
-                    <div class="showcase-neon-ring"></div>
-                  </div>
-                </div>
-                <div class="showcase-info">
-                  <span class="showcase-badge ecommerce-badge">E-Commerce Store</span>
-                  <h3 class="showcase-title">ShopNova Premium</h3>
-                  <p class="showcase-desc">Full-featured online store with payment gateway, inventory & real-time analytics.</p>
-                  <a href="#contact" class="showcase-btn">
-                    Start Your Project
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 3: Web App -->
-            <div class="showcase-slide">
-              <div class="showcase-card">
-                <div class="showcase-img-wrap">
-                  <div class="showcase-img-placeholder webapp">
-                    <div class="mockup-browser">
-                      <div class="mockup-bar">
-                        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-                        <span class="mockup-url">app.taskflow.io</span>
-                      </div>
-                      <div class="mockup-content webapp-content">
-                        <div class="wa-sidebar">
-                          <div class="wa-menu-item active"></div>
-                          <div class="wa-menu-item"></div>
-                          <div class="wa-menu-item"></div>
-                          <div class="wa-menu-item"></div>
-                        </div>
-                        <div class="wa-main">
-                          <div class="wa-chart"></div>
-                          <div class="wa-stats">
-                            <div class="wa-stat"></div>
-                            <div class="wa-stat"></div>
-                            <div class="wa-stat"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="showcase-neon-ring"></div>
-                  </div>
-                </div>
-                <div class="showcase-info">
-                  <span class="showcase-badge webapp-badge">Web Application</span>
-                  <h3 class="showcase-title">TaskFlow Dashboard</h3>
-                  <p class="showcase-desc">Custom SaaS dashboard with real-time data, analytics & team collaboration tools.</p>
-                  <a href="#contact" class="showcase-btn">
-                    Start Your Project
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 4: Landing Page -->
-            <div class="showcase-slide">
-              <div class="showcase-card">
-                <div class="showcase-img-wrap">
-                  <div class="showcase-img-placeholder landing">
-                    <div class="mockup-browser">
-                      <div class="mockup-bar">
-                        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-                        <span class="mockup-url">launch.novatech.in</span>
-                      </div>
-                      <div class="mockup-content landing-content">
-                        <div class="lp-hero">
-                          <div class="lp-headline"></div>
-                          <div class="lp-sub"></div>
-                          <div class="lp-cta"></div>
-                        </div>
-                        <div class="lp-features">
-                          <div class="lp-feat"></div>
-                          <div class="lp-feat"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="showcase-neon-ring"></div>
-                  </div>
-                </div>
-                <div class="showcase-info">
-                  <span class="showcase-badge landing-badge">Landing Page</span>
-                  <h3 class="showcase-title">NovaTech Launch</h3>
-                  <p class="showcase-desc">High-converting product launch page with A/B tested CTAs and lead capture.</p>
-                  <a href="#contact" class="showcase-btn">
-                    Start Your Project
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 5: AI Solutions -->
-            <div class="showcase-slide">
-              <div class="showcase-card">
-                <div class="showcase-img-wrap">
-                  <div class="showcase-img-placeholder ai">
-                    <div class="mockup-browser">
-                      <div class="mockup-bar">
-                        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-                        <span class="mockup-url">ai.novaassist.io</span>
-                      </div>
-                      <div class="mockup-content ai-content">
-                        <div class="ai-header"></div>
-                        <div class="ai-chat">
-                          <div class="ai-msg bot"></div>
-                          <div class="ai-msg user"></div>
-                          <div class="ai-msg bot"></div>
-                          <div class="ai-msg user short"></div>
-                        </div>
-                        <div class="ai-input-bar"></div>
-                      </div>
-                    </div>
-                    <div class="showcase-neon-ring ai-ring"></div>
-                  </div>
-                </div>
-                <div class="showcase-info">
-                  <span class="showcase-badge ai-badge">AI Solutions</span>
-                  <h3 class="showcase-title">NovaAssist AI Chat</h3>
-                  <p class="showcase-desc">Intelligent chatbot & AI automation system integrated seamlessly into your website.</p>
-                  <a href="#contact" class="showcase-btn">
-                    Start Your Project
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slider Controls -->
-          <div class="showcase-controls">
-            <button class="showcase-arrow prev" id="showcasePrev" aria-label="Previous slide">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-text">WEBNOVA</span>
+                <span class="logo-sub">AGENCY</span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary btn-header">
+                Let's Talk
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
-            <div class="showcase-dots" id="showcaseDots">
-              <button class="showcase-dot active" data-index="0" aria-label="Slide 1"></button>
-              <button class="showcase-dot" data-index="1" aria-label="Slide 2"></button>
-              <button class="showcase-dot" data-index="2" aria-label="Slide 3"></button>
-              <button class="showcase-dot" data-index="3" aria-label="Slide 4"></button>
-              <button class="showcase-dot" data-index="4" aria-label="Slide 5"></button>
-            </div>
-            <button class="showcase-arrow next" id="showcaseNext" aria-label="Next slide">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-            </button>
-          </div>
         </div>
-      </div>
-
-      <!-- Right: Contact Panel -->
-      <div class="hero-right reveal">
-        <div class="contact-panel">
-          <h3 class="contact-panel-title">Let's Create <span class="gradient-text">Something Great</span></h3>
-          <p class="contact-panel-desc">Tell us about your project and we'll get back to you soon.</p>
-          <form class="contact-form" id="heroContactForm">
-            <div class="form-group">
-              <input type="text" class="form-input" placeholder="Your Name" required>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-links">
+                <a href="#home" class="mobile-nav-link active">Home</a>
+                <a href="#services" class="mobile-nav-link">Services</a>
+                <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+                <a href="#pricing" class="mobile-nav-link">Pricing</a>
+                <a href="#about" class="mobile-nav-link">About Us</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
             </div>
-            <div class="form-group">
-              <input type="email" class="form-input" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-              <textarea class="form-input form-textarea" placeholder="Your Message" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-full">
-              Send Message
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-            </button>
-          </form>
-          <div class="contact-info-mini">
-            <div class="info-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              <div>
-                <strong>Our Office</strong>
-                <span>Innovation Drive<br>Tech City, India</span>
-              </div>
-            </div>
-          </div>
-          <div class="social-mini">
-            <a href="#" class="social-icon-mini" aria-label="Instagram">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            <a href="#contact" class="btn btn-primary btn-mobile">
+                Let's Talk
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </a>
-            <a href="#" class="social-icon-mini" aria-label="Dribbble">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"></path></svg>
-            </a>
-            <a href="#" class="social-icon-mini" aria-label="Twitter">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
-            </a>
-            <a href="#" class="social-icon-mini" aria-label="Behance">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h6a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3V3z"></path><path d="M3 11h7a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3v-8z"></path><line x1="15" y1="6" x2="21" y2="6"></line><line x1="18" y1="3" x2="18" y2="9"></line></svg>
-            </a>
-          </div>
         </div>
-      </div>
+    </header>
 
-    </div>
-  </div>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-particles" id="particles"></div>
+            <div class="bg-grid"></div>
+        </div>
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Left: Hero Text -->
+                <div class="hero-left">
+                    <div class="badge reveal">
+                        <span class="badge-dot"></span>
+                        DIGITAL SOLUTIONS THAT SCALE
+                    </div>
+                    <h1 class="hero-title reveal">
+                        BUILD<br>
+                        BEYOND<br>
+                        <span class="gradient-text">IMAGINATION</span>
+                    </h1>
+                    <p class="hero-description reveal">
+                        We craft premium websites, web apps and digital experiences that help businesses grow faster online.
+                    </p>
+                    <div class="hero-buttons reveal">
+                        <a href="#portfolio" class="btn btn-primary">
+                            Explore Work
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#services" class="btn btn-secondary">
+                            Our Services
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
 
-  <!-- Scroll indicator -->
-  <div class="scroll-indicator">
-    <div class="scroll-line"></div>
-    <span>SCROLL</span>
-  </div>
-</section>
+                <!-- Center: Premium Energy Orb -->
+                <div class="hero-center reveal" id="orbContainer">
+                    <div class="orb-scene" id="orbScene">
+                        <!-- Main Glass Orb -->
+                        <div class="orb-wrapper" id="orbWrapper">
+                            <div class="orb-core" id="orbCore">
+                                <div class="orb-inner-glow"></div>
+                                <div class="orb-surface"></div>
+                                <div class="orb-refraction"></div>
+                                <div class="orb-shimmer"></div>
+                                <!-- Energy rings -->
+                                <div class="energy-ring ring-1"></div>
+                                <div class="energy-ring ring-2"></div>
+                                <div class="energy-ring ring-3"></div>
+                                <!-- Floating hex particles -->
+                                <div class="hex-particle h1"></div>
+                                <div class="hex-particle h2"></div>
+                                <div class="hex-particle h3"></div>
+                                <div class="hex-particle h4"></div>
+                            </div>
+                            <!-- Orbit halos -->
+                            <div class="orbit-halo halo-1"></div>
+                            <div class="orbit-halo halo-2"></div>
+                            <div class="orbit-halo halo-3"></div>
+                        </div>
+                        <!-- Morph Text Canvas -->
+                        <canvas id="morphCanvas"></canvas>
+                    </div>
+                </div>
 
-<!-- Services Section -->
-<section class="services" id="services">
-  <div class="container">
-    <div class="section-header reveal">
-      <span class="section-label">WHAT WE DO</span>
-      <div class="section-header-row">
-        <div class="section-header-left">
-          <h2 class="section-title">Smart Solutions<br>For A Digital World</h2>
+                <!-- Right: Contact Panel -->
+                <div class="hero-right reveal">
+                    <div class="contact-panel">
+                        <h3 class="contact-panel-title">Let's Create <span class="gradient-text">Something Great</span></h3>
+                        <p class="contact-panel-desc">Tell us about your project and we'll get back to you soon.</p>
+                        <form class="contact-form" id="heroContactForm">
+                            <div class="form-group">
+                                <input type="text" class="form-input" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-input" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-input form-textarea" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                Send Message
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                        </form>
+                        <div class="contact-info-mini">
+                            <div class="info-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                <div>
+                                    <strong>Our Office</strong>
+                                    <span>Innovation Drive<br>Tech City, India</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-mini">
+                            <a href="#" class="social-icon-mini" aria-label="Instagram">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            </a>
+                            <a href="#" class="social-icon-mini" aria-label="Dribbble">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"></path></svg>
+                            </a>
+                            <a href="#" class="social-icon-mini" aria-label="Twitter">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                            </a>
+                            <a href="#" class="social-icon-mini" aria-label="Behance">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h6a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3V3z"></path><path d="M3 11h7a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3v-8z"></path><line x1="15" y1="6" x2="21" y2="6"></line><line x1="18" y1="3" x2="18" y2="9"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="section-header-right">
-          <p class="section-desc">We combine creativity, technology, and data to build products that people love and businesses trust.</p>
-          <a href="#contact" class="link-arrow">
-            View All Services
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>SCROLL</span>
         </div>
-      </div>
-    </div>
-    <div class="services-grid">
-      <div class="service-card reveal">
-        <div class="service-card-glow"></div>
-        <div class="service-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-        </div>
-        <h3 class="service-title">Business Website</h3>
-        <p class="service-desc">Professional websites that establish credibility and convert visitors into customers.</p>
-        <a href="#contact" class="link-arrow">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-card-glow"></div>
-        <div class="service-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path></svg>
-        </div>
-        <h3 class="service-title">Restaurant Website</h3>
-        <p class="service-desc">Mouth-watering designs with online menus, reservations, and ordering systems.</p>
-        <a href="#contact" class="link-arrow">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-card-glow"></div>
-        <div class="service-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
-        </div>
-        <h3 class="service-title">Portfolio Website</h3>
-        <p class="service-desc">Stunning portfolio sites that showcase your work and attract new clients.</p>
-        <a href="#contact" class="link-arrow">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-card-glow"></div>
-        <div class="service-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-        </div>
-        <h3 class="service-title">E-Commerce Website</h3>
-        <p class="service-desc">Full-featured online stores with secure payments, inventory, and order management.</p>
-        <a href="#contact" class="link-arrow">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-card-glow"></div>
-        <div class="service-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
-        </div>
-        <h3 class="service-title">Landing Page</h3>
-        <p class="service-desc">High-converting landing pages designed to maximize leads and sales.</p>
-        <a href="#contact" class="link-arrow">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-card-glow"></div>
-        <div class="service-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-        </div>
-        <h3 class="service-title">Custom Web Application</h3>
-        <p class="service-desc">Tailored web apps built with modern tech to solve your unique business challenges.</p>
-        <a href="#contact" class="link-arrow">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-card-glow"></div>
-        <div class="service-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
-        </div>
-        <h3 class="service-title">Website Redesign</h3>
-        <p class="service-desc">Transform your outdated website into a modern, high-performing digital asset.</p>
-        <a href="#contact" class="link-arrow">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-card-glow"></div>
-        <div class="service-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        </div>
-        <h3 class="service-title">SEO Optimization</h3>
-        <p class="service-desc">Data-driven SEO strategies to boost your rankings and drive organic traffic.</p>
-        <a href="#contact" class="link-arrow">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Portfolio Section -->
-<section class="portfolio" id="portfolio">
-  <div class="container">
-    <div class="section-header text-center reveal">
-      <span class="section-label">OUR WORK</span>
-      <h2 class="section-title">Featured Projects</h2>
-      <p class="section-desc">Explore some of our recent work that showcases our expertise.</p>
-    </div>
-    <div class="portfolio-grid">
-      <div class="portfolio-card reveal">
-        <div class="portfolio-image">
-          <img src="assets/portfolio-1.jpg" alt="Pooja Beauty Parlour Website" loading="lazy">
-          <div class="portfolio-overlay">
-            <div class="portfolio-overlay-content">
-              <span class="portfolio-tag">Beauty &amp; Wellness</span>
-              <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">WHAT WE DO</span>
+                <div class="section-header-row">
+                    <div class="section-header-left">
+                        <h2 class="section-title">Smart Solutions<br>For A Digital World</h2>
+                    </div>
+                    <div class="section-header-right">
+                        <p class="section-desc">We combine creativity, technology, and data to build products that people love and businesses trust.</p>
+                        <a href="#contact" class="link-arrow">
+                            View All Services
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="portfolio-content">
-          <h3 class="portfolio-title">Pooja Beauty Parlour</h3>
-          <p class="portfolio-category">Beauty &amp; Wellness</p>
-        </div>
-      </div>
-      <div class="portfolio-card reveal">
-        <div class="portfolio-image">
-          <img src="assets/portfolio-2.jpg" alt="Gourmet Hub Restaurant Website" loading="lazy">
-          <div class="portfolio-overlay">
-            <div class="portfolio-overlay-content">
-              <span class="portfolio-tag">Food &amp; Dining</span>
-              <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3 class="service-title">Business Website</h3>
+                    <p class="service-desc">Professional websites that establish credibility and convert visitors into customers.</p>
+                    <a href="#contact" class="link-arrow">
+                        Learn More
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path></svg>
+                    </div>
+                    <h3 class="service-title">Restaurant Website</h3>
+                    <p class="service-desc">Mouth-watering designs with online menus, reservations, and ordering systems.</p>
+                    <a href="#contact" class="link-arrow">
+                        Learn More
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                    </div>
+                    <h3 class="service-title">Portfolio Website</h3>
+                    <p class="service-desc">Stunning portfolio sites that showcase your work and attract new clients.</p>
+                    <a href="#contact" class="link-arrow">
+                        Learn More
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    </div>
+                    <h3 class="service-title">E-Commerce Website</h3>
+                    <p class="service-desc">Full-featured online stores with secure payments, inventory, and order management.</p>
+                    <a href="#contact" class="link-arrow">
+                        Learn More
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+                    </div>
+                    <h3 class="service-title">Landing Page</h3>
+                    <p class="service-desc">High-converting landing pages designed to maximize leads and sales.</p>
+                    <a href="#contact" class="link-arrow">
+                        Learn More
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </div>
+                    <h3 class="service-title">Custom Web Application</h3>
+                    <p class="service-desc">Tailored web apps built with modern tech to solve your unique business challenges.</p>
+                    <a href="#contact" class="link-arrow">
+                        Learn More
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                    </div>
+                    <h3 class="service-title">Website Redesign</h3>
+                    <p class="service-desc">Transform your outdated website into a modern, high-performing digital asset.</p>
+                    <a href="#contact" class="link-arrow">
+                        Learn More
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </div>
+                    <h3 class="service-title">SEO Optimization</h3>
+                    <p class="service-desc">Data-driven SEO strategies to boost your rankings and drive organic traffic.</p>
+                    <a href="#contact" class="link-arrow">
+                        Learn More
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="portfolio-content">
-          <h3 class="portfolio-title">Gourmet Hub Restaurant</h3>
-          <p class="portfolio-category">Food &amp; Dining</p>
-        </div>
-      </div>
-      <div class="portfolio-card reveal">
-        <div class="portfolio-image">
-          <img src="assets/portfolio-3.jpg" alt="Cafe Website" loading="lazy">
-          <div class="portfolio-overlay">
-            <div class="portfolio-overlay-content">
-              <span class="portfolio-tag">Cafe &amp; Coffee</span>
-              <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-content">
-          <h3 class="portfolio-title">The Daily Grind Cafe</h3>
-          <p class="portfolio-category">Cafe &amp; Coffee</p>
-        </div>
-      </div>
-      <div class="portfolio-card reveal">
-        <div class="portfolio-image">
-          <img src="assets/portfolio-4.jpg" alt="Interior Design Studio Website" loading="lazy">
-          <div class="portfolio-overlay">
-            <div class="portfolio-overlay-content">
-              <span class="portfolio-tag">Interior Design</span>
-              <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-content">
-          <h3 class="portfolio-title">Atelier Luxe Interiors</h3>
-          <p class="portfolio-category">Interior Design</p>
-        </div>
-      </div>
-      <div class="portfolio-card reveal">
-        <div class="portfolio-image">
-          <img src="assets/portfolio-5.jpg" alt="Business Landing Page" loading="lazy">
-          <div class="portfolio-overlay">
-            <div class="portfolio-overlay-content">
-              <span class="portfolio-tag">Corporate Business</span>
-              <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-content">
-          <h3 class="portfolio-title">Corp Solutions</h3>
-          <p class="portfolio-category">Corporate Business</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Pricing Section -->
-<section class="pricing" id="pricing">
-  <div class="container">
-    <div class="section-header text-center reveal">
-      <span class="section-label">PRICING</span>
-      <h2 class="section-title">Choose Your Plan</h2>
-      <p class="section-desc">Transparent pricing with no hidden fees. Pick the plan that fits your needs.</p>
-    </div>
-    <div class="pricing-grid">
-      <div class="pricing-card reveal">
-        <h3 class="pricing-name">Starter</h3>
-        <div class="pricing-price">
-          <span class="pricing-currency">&#x20B9;</span>
-          <span class="pricing-amount">4,999</span>
-        </div>
-        <p class="pricing-desc">Perfect for small businesses getting started online.</p>
-        <ul class="pricing-features">
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 5 Pages Website</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Mobile Responsive</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Contact Form</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 1 Week Delivery</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 1 Month Support</li>
-        </ul>
-        <a href="#contact" class="btn btn-secondary btn-full">Get Started</a>
-      </div>
-      <div class="pricing-card pricing-featured reveal">
-        <div class="pricing-badge">Most Popular</div>
-        <h3 class="pricing-name">Pro</h3>
-        <div class="pricing-price">
-          <span class="pricing-currency">&#x20B9;</span>
-          <span class="pricing-amount">9,999</span>
-        </div>
-        <p class="pricing-desc">Ideal for growing businesses needing more features.</p>
-        <ul class="pricing-features">
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 10 Pages Website</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Mobile Responsive</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Contact Form + Map</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Social Media Integration</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 2 Weeks Delivery</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 3 Months Support</li>
-        </ul>
-        <a href="#contact" class="btn btn-primary btn-full">Get Started</a>
-      </div>
-      <div class="pricing-card pricing-highlighted reveal">
-        <div class="pricing-badge pricing-badge-gold">Best Value</div>
-        <div class="pricing-highlight-glow"></div>
-        <h3 class="pricing-name">Business</h3>
-        <div class="pricing-price">
-          <span class="pricing-currency">&#x20B9;</span>
-          <span class="pricing-amount">14,999</span>
-        </div>
-        <p class="pricing-desc">Complete solution for established businesses.</p>
-        <ul class="pricing-features">
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Unlimited Pages</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Mobile Responsive</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Advanced Contact Forms</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> E-Commerce Ready</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> SEO Optimization</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 3 Weeks Delivery</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 6 Months Support</li>
-        </ul>
-        <a href="#contact" class="btn btn-primary btn-full">Get Started</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- About / Stats Section -->
-<section class="about" id="about">
-  <div class="container">
-    <div class="section-header text-center reveal">
-      <span class="section-label">ABOUT US</span>
-      <h2 class="section-title">Why Choose WebNova?</h2>
-      <p class="section-desc">We are a team of passionate designers and developers dedicated to creating exceptional digital experiences.</p>
-    </div>
-    <div class="stats-grid">
-      <div class="stat-card reveal">
-        <div class="stat-number" data-target="50">0</div>
-        <span class="stat-suffix">+</span>
-        <p class="stat-label">Projects Completed</p>
-      </div>
-      <div class="stat-card reveal">
-        <div class="stat-number" data-target="100">0</div>
-        <span class="stat-suffix">%</span>
-        <p class="stat-label">Mobile Responsive</p>
-      </div>
-      <div class="stat-card reveal">
-        <div class="stat-number" data-target="24">0</div>
-        <span class="stat-suffix">/7</span>
-        <p class="stat-label">Support Available</p>
-      </div>
-      <div class="stat-card reveal">
-        <div class="stat-number" data-target="99">0</div>
-        <span class="stat-suffix">%</span>
-        <p class="stat-label">Client Satisfaction</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Contact Section -->
-<section class="contact" id="contact">
-  <div class="container">
-    <div class="contact-grid">
-      <div class="contact-left reveal">
-        <span class="section-label">GET IN TOUCH</span>
-        <h2 class="section-title">Let's Build Something<br><span class="gradient-text">Amazing Together</span></h2>
-        <p class="section-desc">Ready to take your business online? Contact us today and let's discuss your project.</p>
-        <div class="contact-details">
-          <div class="contact-item">
-            <div class="contact-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-label">OUR WORK</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-desc">Explore some of our recent work that showcases our expertise.</p>
             </div>
-            <div><strong>Phone</strong><span>+91 9054972724</span></div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            <div class="portfolio-grid">
+                <div class="portfolio-card reveal">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-1.jpg" alt="Pooja Beauty Parlour Website" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-tag">Beauty & Wellness</span>
+                                <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Pooja Beauty Parlour</h3>
+                        <p class="portfolio-category">Beauty & Wellness</p>
+                    </div>
+                </div>
+                <div class="portfolio-card reveal">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-2.jpg" alt="Gourmet Hub Restaurant Website" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-tag">Food & Dining</span>
+                                <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Gourmet Hub Restaurant</h3>
+                        <p class="portfolio-category">Food & Dining</p>
+                    </div>
+                </div>
+                <div class="portfolio-card reveal">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-3.jpg" alt="Cafe Website" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-tag">Cafe & Coffee</span>
+                                <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">The Daily Grind Cafe</h3>
+                        <p class="portfolio-category">Cafe & Coffee</p>
+                    </div>
+                </div>
+                <div class="portfolio-card reveal">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-4.jpg" alt="Interior Design Studio Website" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-tag">Interior Design</span>
+                                <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Atelier Luxe Interiors</h3>
+                        <p class="portfolio-category">Interior Design</p>
+                    </div>
+                </div>
+                <div class="portfolio-card reveal">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-5.jpg" alt="Business Landing Page" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-tag">Corporate Business</span>
+                                <a href="#" class="btn btn-primary btn-sm">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Corp Solutions</h3>
+                        <p class="portfolio-category">Corporate Business</p>
+                    </div>
+                </div>
             </div>
-            <div><strong>WhatsApp</strong><span>+91 9978540066</span></div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            </div>
-            <div><strong>Email</strong><span>hello@webnova.agency</span></div>
-          </div>
         </div>
-      </div>
-      <div class="contact-right reveal">
-        <form class="contact-form-large" id="contactForm">
-          <div class="form-row">
-            <div class="form-group">
-              <input type="text" class="form-input" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-input" placeholder="Your Email" required>
-            </div>
-          </div>
-          <div class="form-group">
-            <input type="tel" class="form-input" placeholder="Phone Number">
-          </div>
-          <div class="form-group">
-            <select class="form-input">
-              <option value="">Select Service</option>
-              <option value="business">Business Website</option>
-              <option value="restaurant">Restaurant Website</option>
-              <option value="portfolio">Portfolio Website</option>
-              <option value="ecommerce">E-Commerce Website</option>
-              <option value="landing">Landing Page</option>
-              <option value="custom">Custom Web Application</option>
-              <option value="redesign">Website Redesign</option>
-              <option value="seo">SEO Optimization</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <textarea class="form-input form-textarea" placeholder="Tell us about your project..." required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary btn-full">
-            Send Message
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-          </button>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="#" class="logo">
-          <span class="logo-text">WEBNOVA</span>
-          <span class="logo-sub">AGENCY</span>
-        </a>
-        <p class="footer-tagline">We Build &bull; We Design &bull; We Grow</p>
-        <p class="footer-desc">We craft premium digital experiences that help businesses grow faster online. Your vision, our expertise.</p>
-      </div>
-      <div class="footer-links">
-        <h4 class="footer-title">Quick Links</h4>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-links">
-        <h4 class="footer-title">Services</h4>
-        <ul>
-          <li><a href="#services">Business Website</a></li>
-          <li><a href="#services">E-Commerce</a></li>
-          <li><a href="#services">Landing Page</a></li>
-          <li><a href="#services">Custom Web App</a></li>
-          <li><a href="#services">SEO Optimization</a></li>
-          <li><a href="#services">Website Redesign</a></li>
-        </ul>
-      </div>
-      <div class="footer-contact">
-        <h4 class="footer-title">Contact Us</h4>
-        <div class="footer-contact-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-          <span>+91 9054972724</span>
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-label">PRICING</span>
+                <h2 class="section-title">Choose Your Plan</h2>
+                <p class="section-desc">Transparent pricing with no hidden fees. Pick the plan that fits your needs.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <h3 class="pricing-name">Starter</h3>
+                    <div class="pricing-price">
+                        <span class="pricing-currency">&#x20B9;</span>
+                        <span class="pricing-amount">4,999</span>
+                    </div>
+                    <p class="pricing-desc">Perfect for small businesses getting started online.</p>
+                    <ul class="pricing-features">
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 5 Pages Website</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Mobile Responsive</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Contact Form</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 1 Week Delivery</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 1 Month Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary btn-full">Get Started</a>
+                </div>
+                <div class="pricing-card pricing-featured reveal">
+                    <div class="pricing-badge">Most Popular</div>
+                    <h3 class="pricing-name">Pro</h3>
+                    <div class="pricing-price">
+                        <span class="pricing-currency">&#x20B9;</span>
+                        <span class="pricing-amount">9,999</span>
+                    </div>
+                    <p class="pricing-desc">Ideal for growing businesses needing more features.</p>
+                    <ul class="pricing-features">
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 10 Pages Website</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Mobile Responsive</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Contact Form + Map</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Social Media Integration</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 2 Weeks Delivery</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 3 Months Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-full">Get Started</a>
+                </div>
+                <div class="pricing-card pricing-highlighted reveal">
+                    <div class="pricing-badge pricing-badge-gold">Best Value</div>
+                    <div class="pricing-highlight-glow"></div>
+                    <h3 class="pricing-name">Business</h3>
+                    <div class="pricing-price">
+                        <span class="pricing-currency">&#x20B9;</span>
+                        <span class="pricing-amount">14,999</span>
+                    </div>
+                    <p class="pricing-desc">Complete solution for established businesses.</p>
+                    <ul class="pricing-features">
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Unlimited Pages</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Mobile Responsive</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Advanced Contact Forms</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> E-Commerce Ready</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> SEO Optimization</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 3 Weeks Delivery</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 6 Months Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-full">Get Started</a>
+                </div>
+            </div>
         </div>
-        <div class="footer-contact-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-          <span>+91 9978540066</span>
-        </div>
-        <div class="footer-socials">
-          <a href="#" class="social-icon" aria-label="Instagram">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-          </a>
-          <a href="#" class="social-icon" aria-label="Facebook">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-          </a>
-          <a href="#" class="social-icon" aria-label="LinkedIn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-          </a>
-          <a href="#" class="social-icon" aria-label="X / Twitter">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
-          </a>
-          <a href="#" class="social-icon" aria-label="YouTube">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.13c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.46z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 WebNova Agency. All rights reserved.</p>
-      <div class="footer-legal">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Use</a>
-      </div>
-    </div>
-  </div>
-</footer>
+    </section>
 
-<!-- WhatsApp Floating Button -->
-<a href="https://wa.me/919978540066" target="_blank" class="whatsapp-btn" aria-label="Chat on WhatsApp">
-  <div class="whatsapp-pulse"></div>
-  <div class="whatsapp-pulse whatsapp-pulse-2"></div>
-  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-</a>
+    <!-- About / Stats Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-label">ABOUT US</span>
+                <h2 class="section-title">Why Choose WebNova?</h2>
+                <p class="section-desc">We are a team of passionate designers and developers dedicated to creating exceptional digital experiences.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="50">0</div>
+                    <span class="stat-suffix">+</span>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="100">0</div>
+                    <span class="stat-suffix">%</span>
+                    <p class="stat-label">Mobile Responsive</p>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="24">0</div>
+                    <span class="stat-suffix">/7</span>
+                    <p class="stat-label">Support Available</p>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="99">0</div>
+                    <span class="stat-suffix">%</span>
+                    <p class="stat-label">Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script src="script.js"></script>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-left reveal">
+                    <span class="section-label">GET IN TOUCH</span>
+                    <h2 class="section-title">Let's Build Something<br><span class="gradient-text">Amazing Together</span></h2>
+                    <p class="section-desc">Ready to take your business online? Contact us today and let's discuss your project.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <div>
+                                <strong>Phone</strong>
+                                <span>+91 9054972724</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                            </div>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <span>+91 9978540066</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>hello@webnova.agency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right reveal">
+                    <form class="contact-form-large" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" class="form-input" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-input" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-input" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-input">
+                                <option value="">Select Service</option>
+                                <option value="business">Business Website</option>
+                                <option value="restaurant">Restaurant Website</option>
+                                <option value="portfolio">Portfolio Website</option>
+                                <option value="ecommerce">E-Commerce Website</option>
+                                <option value="landing">Landing Page</option>
+                                <option value="custom">Custom Web Application</option>
+                                <option value="redesign">Website Redesign</option>
+                                <option value="seo">SEO Optimization</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input form-textarea" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Send Message
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-text">WEBNOVA</span>
+                        <span class="logo-sub">AGENCY</span>
+                    </a>
+                    <p class="footer-tagline">We Build &bull; We Design &bull; We Grow</p>
+                    <p class="footer-desc">We craft premium digital experiences that help businesses grow faster online. Your vision, our expertise.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Services</h4>
+                    <ul>
+                        <li><a href="#services">Business Website</a></li>
+                        <li><a href="#services">E-Commerce</a></li>
+                        <li><a href="#services">Landing Page</a></li>
+                        <li><a href="#services">Custom Web App</a></li>
+                        <li><a href="#services">SEO Optimization</a></li>
+                        <li><a href="#services">Website Redesign</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <span>+91 9054972724</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                        <span>+91 9978540066</span>
+                    </div>
+                    <div class="footer-socials">
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="X / Twitter">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="YouTube">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.13c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.46z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WebNova Agency. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919978540066" target="_blank" class="whatsapp-btn" aria-label="Chat on WhatsApp">
+        <div class="whatsapp-pulse"></div>
+        <div class="whatsapp-pulse whatsapp-pulse-2"></div>
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script src="script.js"></script>
 </body>
 </html>
